@@ -5,44 +5,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+        <div></div>
+
 <form action="https://formspree.io/kostudzinski@gmail.com" method="POST" name="mail2">
+        
+        
 
-        <label for="user-name">Imię</label><br>
-        <input type="text" id="user-name" name="name"><br><br>
+        <label id="id" for="user-name">Imię</label><br>
+        <input id="active" type="text" name="name"><br><br>
 
-        <label for="user-surname">Nazwisko</label><br>
-        <input type="text" id="user-surname" name="surname"><br><br>
+        <label id="id" for="user-surname">Nazwisko</label><br>
+        <input id="active" type="text" name="surname"><br><br>
 
-        <label for="mail">Mail</label><br>
-        <input type="email" id="mail" name="mail"><br><br>
+        <label id="id" for="mail">Mail</label><br>
+        <input id="active" type="email" name="mail"><br><br>
 
-        <label for="phone_number">Numer telefonu</label><br>
-        <input type="text" id="phone_number" name="number"><br><br>
+        <label id="id" for="phone_number">Numer telefonu</label><br>
+        <input id="active" type="text" name="number"><br><br>
 
        
-        <p>Miasto</p>
+        <label id="id" for="city">Miasto</label><br>
             
-        <select id="select" name="select">
+        <select id="select" name="number">
               <option value="krakow">Krakow</option>
               <option value="warszawa">Wraszawa</option>
               <option value="gdansk">Gdańsk</option>
         </select><br><br>
         
-        <p>Płeć</p>
-        <input type="radio" id="male" name="gender" value="male" checked> Male<br>
-        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <p id="id" >Płeć</p>
+        <label id="id" for="male">Male</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked><br>
+        <label id="id" for="female">Female</label><br>
+        <input type="radio" id="female" name="gender" value="female"><br>
         <br><br>
-        
-        <input type="checkbox" id="agree" name="agree" value="agreement">Zgoda na dane osobowe<br><br>
+        <label id="id" for="agree">Zgoda na dane osobowe</label><br>
+        <input type="checkbox" id="agree" name="agree" value="agreement"><br><br>
 
-        <label for="message">Wiadomość</label><br>
+        <label id="id" for="message">Wiadomość</label><br>
         <textarea maxlength="200" id="message" name="message"></textarea><br><br>
 
-        <input type="submit" value="Send">
+        <input id="id" type="submit" value="Send">
 
 
     </form>

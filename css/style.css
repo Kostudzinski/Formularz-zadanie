@@ -1,0 +1,38 @@
+ div:empty {
+    height:1000px;
+    width:1000px;
+    background-color: #213b50;
+    position: absolute; 
+    z-index: -1; 
+     
+}
+
+#id, #active, #message, #select, #male, #female, #agree {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+input[type] {
+    background-color: #2b4a64;
+}
+
+textarea {
+    background-color: #2b4a64;
+}
+
+
+input[type]:focus {
+    background-color:  #4e708c;
+    color: #fff;
+    border: 2px solid #fff;
+    
+}
+ textarea:focus {
+    background-color:  #4e708c;
+    color: #fff; 
+    border: 2px solid #fff;    
+}
+
+
+
